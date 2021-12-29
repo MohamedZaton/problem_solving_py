@@ -2,7 +2,7 @@
 def most_frequent(given_list):
     max_count = -1
     max_item = None
-    count = {}
+    count = {} # map
     for i in given_list:
         if i not in count:
             count[i] = 1
